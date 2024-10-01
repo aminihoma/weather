@@ -11,14 +11,34 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Weather App</h1>
         <Weather city="Tehran" />
-        <p>
-          This project was coded by Homa Amini and is open-sourced on GitHub and
-          hosted on Netlify
-        </p>
       </header>
-      <a href="https://www.shecodes.io" target="_blank" rel="noreferrer">
-        Click me
-      </a>
+      <footer>
+        {" "}
+        This project was coded by{" "}
+        <a
+          href="https://www.linkedin.com/in/homa-amini-ba327296/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Homa Amini{" "}
+        </a>
+        and is{" "}
+        <a
+          href="https://github.com/aminihoma/weather"
+          target="_blank"
+          rel="noreferrer"
+        >
+          open-sourced on GitHub{" "}
+        </a>
+        and{" "}
+        <a
+          href="https://magical-faun-9e4bf8.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          hosted on Netlify
+        </a>
+      </footer>
     </div>
   );
 }
