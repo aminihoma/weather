@@ -16,6 +16,9 @@ function App() {
           hosted on Netlify
         </p>
       </header>
+      <a href="https://www.shecodes.io" target="_blank" rel="noreferrer">
+        Click me
+      </a>
     </div>
   );
 }
